@@ -9,10 +9,6 @@
 # Version Check
 #
 
-# for agnoster
-source ~/.sources/get-short-path.zsh
-source ~/.sources/git-omz.zsh
-
 # Check for the minimum supported version.
 min_zsh_version='4.3.17'
 if ! autoload -Uz is-at-least || ! is-at-least "$min_zsh_version"; then
